@@ -15,3 +15,7 @@ console.log(typeof(c));
 
 let bool = true
 console.log(typeof(bool));
+
+//We cannot Redeclare variable with let keyword, but possible with var.
+//Re-assigning is allowed with the let keyword
+
