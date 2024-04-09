@@ -40,3 +40,7 @@ for (let index = 0; index < marks.length; index++) {
     sum = sum + marks[index]
  }
  console.log("Summation of the array is :: " + sum);
+
+ //Reduce Filter Map
+let val = marks.reduce((sum,totalValue)=>sum + totalValue,0)
+console.log(val);
