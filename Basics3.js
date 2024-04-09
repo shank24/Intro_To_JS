@@ -1,6 +1,10 @@
 let marks = Array(6)
 marks = new Array(10,20,30,40,50,60)
 
+//Splitting an array
+subArray = marks.slice(0,3)
+console.log(subArray);
+
 
 //Shortcut
 var marks1 = [1,2,3,4,5,6]
@@ -21,3 +25,12 @@ console.log(marks);
 //Add at the beginning
 marks.unshift(85)
 console.log(marks);
+
+
+//Get Index
+console.log(marks.indexOf(10));
+
+//Element Present
+console.log(marks.includes(20));
+
+
