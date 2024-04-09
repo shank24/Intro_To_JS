@@ -33,4 +33,10 @@ console.log(marks.indexOf(10));
 //Element Present
 console.log(marks.includes(20));
 
-
+let sum = 0
+//Iterate
+for (let index = 0; index < marks.length; index++) {
+    console.log( marks[index]);
+    sum = sum + marks[index]
+ }
+ console.log("Summation of the array is :: " + sum);
