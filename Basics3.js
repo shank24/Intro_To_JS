@@ -60,3 +60,9 @@ for (let index = 0; index < scores.length; index++) {
  //Filter Way
  let newFilterArray = scores.filter(value=>value%2==0)
  console.log(newFilterArray);
+
+ //Map Array Function
+ //Filter Even Number of Array and Multiply by 3.
+
+ let multiplyBy3 = newFilterArray.map(value=>value*3)
+ console.log(multiplyBy3);
