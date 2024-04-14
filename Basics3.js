@@ -44,3 +44,15 @@ for (let index = 0; index < marks.length; index++) {
  //Reduce Filter Map
 let val = marks.reduce((sum,totalValue)=>sum + totalValue,0)
 console.log(val);
+
+//Find Even Numbers
+var scores = [1,2,3,4,5,6,7,8,9]
+var evenScores = []
+
+//Iterate
+for (let index = 0; index < scores.length; index++) {
+    if(scores[index]%2==0){
+        evenScores.push(scores[index])
+    }
+ }
+ console.log(evenScores);
