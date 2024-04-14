@@ -56,3 +56,7 @@ for (let index = 0; index < scores.length; index++) {
     }
  }
  console.log(evenScores);
+
+ //Filter Way
+ let newFilterArray = scores.filter(value=>value%2==0)
+ console.log(newFilterArray);
