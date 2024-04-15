@@ -42,7 +42,7 @@ for (let index = 0; index < marks.length; index++) {
  console.log("Summation of the array is :: " + sum);
 
  //Reduce Filter Map
-let val = marks.reduce((sum,totalValue)=>sum + totalValue,0)
+let val = sumArray(marks)
 console.log(val);
 
 //Find Even Numbers
@@ -66,3 +66,12 @@ for (let index = 0; index < scores.length; index++) {
 
  let multiplyBy3 = newFilterArray.map(value=>value*3)
  console.log(multiplyBy3);
+
+ //Reduce Filter Map
+let val1 = sumArray(multiplyBy3)
+console.log(val1);
+
+function sumArray(array) {
+    return array.reduce((sum, totalValue) => sum + totalValue, 0);
+}
+ 
