@@ -70,8 +70,15 @@ for (let index = 0; index < scores.length; index++) {
  //Reduce Filter Map
 let val1 = sumArray(multiplyBy3)
 console.log(val1);
+ 
 
 function sumArray(array) {
     return array.reduce((sum, totalValue) => sum + totalValue, 0);
 }
+
+//Chaining Of Operations
+var scores1=[1,5,9,3,7,8,2]
+
+let totalSum = scores1.filter(x=>x%2==0).map(x=>x*5).reduce((x,y)=>x+y,0)
+console.log(totalSum);
  
