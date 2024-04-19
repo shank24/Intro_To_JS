@@ -2,6 +2,8 @@
 var fruit = ["Banana","Mango","Apple","Orange"]
 fruit.sort()
 console.log(fruit);
+fruit.reverse()
+console.log(fruit);
 
 //Sorting Integer
 var number = [12,003,19,16,14]
