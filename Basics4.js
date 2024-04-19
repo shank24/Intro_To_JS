@@ -14,6 +14,9 @@ number.sort(function(a,b){
     return a-b
 })
 
-//Anonymous Function
+//Anonymous Function (Asc to Desc)
 console.log(number.sort( (a,b)=> a-b));
 
+
+//Anonymous Function (Desc to Asc)
+console.log(number.sort( (a,b)=> b-a));
