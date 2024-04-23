@@ -7,3 +7,7 @@ let person ={
 }
 
 console.log(person.lastName);
+console.log(person['lastName']);
+
+person.gender = 'Male'
+console.log(person);
