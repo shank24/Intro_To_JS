@@ -14,3 +14,9 @@ console.log(day.split("d"));
 let date1 = "24"
 let date2 = "27"
 console.log(parseInt(date2)-parseInt(date1));
+
+//Concatenate String
+
+let newCode = day + " Is Funday"
+console.log(newCode);
+console.log(newCode.indexOf("day"));
