@@ -22,5 +22,17 @@ console.log(sum1(5,9))
 var greet = "Evening"
 if(1==1){
     var greet = "After-Noon"
-    console.log(greet);
+    //console.log(greet);
 }
+
+//Let - Global Level or Block Level 
+let greet1 = "Evening Let"
+if(2==2){
+    //It is not visible, outside of the block.
+    let greet1 = "After-Noon Let"
+    console.log(greet1);
+}
+
+console.log(greet1);
+
+//Const - Same as Let, except it cannot be re-initialized, as it is used for Constant
