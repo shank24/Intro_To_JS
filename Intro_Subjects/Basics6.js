@@ -1,3 +1,6 @@
+//Receiving Class From Other Class
+const Person = require('./Basics8')
+
 //String Demo
 
 let day = "Monday"
@@ -28,3 +31,8 @@ while(value!==-1){
     value = newCode.indexOf("day",value+1)
 }
 console.log("Day Occurred : " + count);
+
+//Receiving Class
+
+let personObject = new Person("Shankar", "Om")
+console.log(personObject.fullName());
